@@ -32,3 +32,26 @@ header {
   padding: 0 1.5em;
   background-color: #fff;
 }
+
+.clearfix::before,
+.clearfix::after {
+  display: table;
+  content: " "
+}
+
+.clearfix::after {
+  clear: both;
+}
+
+.media {
+  padding: 1.5em;
+  border-radius: 0.5em;
+  background-color: #eee;
+  float: left;
+  width: calc(50% - 1.5em);
+  margin: 0 1.5em 1.5em 0;
+}
+
+.media:nth-child(odd) {
+  clear: left;
+}
