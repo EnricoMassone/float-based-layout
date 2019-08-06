@@ -4,7 +4,7 @@
   "description": "This project is insprired by chapter four of the book [CSS in depth](https://www.manning.com/books/css-in-depth).  \r This is both a way for me to fix the concepts illustrated there and an useful reference for anyone interested in learning CSS.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "serve"
   },
   "repository": {
     "type": "git",
